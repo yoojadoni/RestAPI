@@ -1,0 +1,104 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+= 메뉴조회 API DOC
+(부제 작성필요)
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[overview]]
+= 개요
+
+[[overview-other-page]]
+
+== 주문페이지
+link:order.html[]
+
+[[overview-http-verbs]]
+== HTTP 동사
+본 REST API에서 사용하는 HTTP 동사(verbs)는 가능한한 표준 HTTP와 REST 규약을 따릅니다.
+
+|===
+| 동사 | 용례
+
+| `GET`
+| 리소스를 가져올 때 사용
+
+| `POST`
+| 새 리소스를 만들 때 사용
+
+| `PUT`
+| 기존 리소스를 수정할 때 사용
+
+| `PATCH`
+| 기존 리소스의 일부를 수정할 때 사용
+
+| `DELETE`
+| 기존 리소스를 삭제할 때 사용
+|===
+
+
+[[오류코드표]]
+== 오류코드표
+|===
+| 코드 | 메시지
+
+| `400`
+| BAD_REQUEST
+
+| `401`
+| UNAUTHORIZED
+
+| `403`
+| FORBIDDEN
+
+| `404`
+| NOT_FOUND
+
+| `405`
+| DATA_NOT_EXISTS
+|===
+
+[[주문-API]]
+== Order API
+
+[[주문-전체조회]]
+=== 주문 전체 조회
+==== 요청
+include::{snippets}/order-getAll/http-request.adoc[]
+include::{snippets}/order-getAll/request-body.adoc[]
+==== 응답
+include::{snippets}/order-getAll/response-fields.adoc[]
+include::{snippets}/order-getAll/http-response.adoc[]
+
+[[주문-조회]]
+=== 주문 일부 조회
+==== 요청
+include::{snippets}/order-get/http-request.adoc[]
+include::{snippets}/order-get/path-parameters.adoc[]
+==== 응답
+include::{snippets}/order-get/response-fields.adoc[]
+include::{snippets}/order-get/http-response.adoc[]
+
+[[주문-생성]]
+=== 주문 생성
+==== 요청
+include::{snippets}/order-create/http-request.adoc[]
+include::{snippets}/order-create/request-fields.adoc[]
+==== 응답
+include::{snippets}/order-create/response-fields.adoc[]
+include::{snippets}/order-create/http-response.adoc[]
+
+[[주문-수정]]
+=== 주문 수정
+==== 요청
+include::{snippets}/order-update/http-request.adoc[]
+include::{snippets}/order-update/request-fields.adoc[]
+==== 응답
+include::{snippets}/order-update/response-fields.adoc[]
+include::{snippets}/order-update/http-response.adoc[]
