@@ -13,40 +13,24 @@ REST API 스터디를 위한 주문 RESTful API 구현
             </thead>
             <tbody>
                 <tr>
-                <td align="center">Java</td>
-                <td align="center">1.8</td>
+                    <td align="center">Java</td>
+                    <td align="center">1.8</td>
                 </tr>
                 <tr>
-                <td align="center">Spring Boot</td>
-                <td align="center">2.7.6</td>
+                    <td align="center">Spring Boot</td>
+                    <td align="center">2.7.6</td>
                 </tr>
                 <tr>
-                <td align="center">Build Tool</td>
-                <td align="center">Gradle</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div float="left">
-        <table>
-            <thead>
-                <tr>
-                <th align="center">환경</th>
-                <th align="center">버전</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td align="center">Java</td>
-                <td align="center">1.8</td>
+                    <td align="center">Build Tool</td>
+                    <td align="center">Gradle</td>
                 </tr>
                 <tr>
-                <td align="center">Spring Boot</td>
-                <td align="center">2.7.6</td>
+                    <td align="center">Spring Rest Doc</td>
+                    <td align="center">2.7.6</td>
                 </tr>
                 <tr>
-                <td align="center">Build Tool</td>
-                <td align="center">Gradle</td>
+                    <td align="center">Spring-Data-JPA</td>
+                    <td align="center">2.7.6</td>
                 </tr>
             </tbody>
         </table>
